@@ -5,8 +5,8 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [Text('Jonel, Welcome to HCDC Campus')],
+    return Center(
+      child: Text('Jonel, Welcome to HCDC Campus'),
     );
   }
 }
